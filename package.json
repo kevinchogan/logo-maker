@@ -1,0 +1,17 @@
+{
+  "name": "logo-maker",
+  "version": "1.0.0",
+  "description": "A Node.js command-line application that prompts the user to select a color, shape, and text to create a logo and save it as an SVG file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^24.9.0"
+  }
+}
