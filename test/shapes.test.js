@@ -125,3 +125,40 @@ describe("Triangle", () => {
     );
   });
 });
+
+describe("Polygon", () => {
+  it("should create an object with fill and border colors if provided valid arguments", () => {
+    const polygon = new shape.Polygon("red", "yellow", 8);
+    expect(polygon.stroke).toEqual("red");
+    expect(polygon.fill).toEqual("yellow");
+  });
+
+  it("should throw an error if provided no arguments", () => {
+    const cb = () => new shape.Polygon();
+    expect(cb).toThrow();
+  });
+
+  it("should throw an error if 'stroke' color is not a valid color or hex number", () => {
+    const cb = () => new shape.Polygon("X", "blue", 8);
+    const err = new Error(
+      "Expected parameter 'stroke' to be either a valid color or a hex number"
+    );
+    expect(cb).toThrowError(err);
+  });
+
+  it("should throw an error if 'fill' color is not a valid color or hex number", () => {
+    const cb = () => new shape.Polygon("blue", "X", 8);
+    const err = new Error(
+      "Expected parameter 'fill' to be either a valid color or a hex number"
+    );
+    expect(cb).toThrowError(err);
+  });
+
+  it("should throw an error if 'points' is not a valid number", () => {
+    const cb = () => new shape.Polygon("blue", "red", "X");
+    const err = new Error(
+      "Expected parameter 'points' to be a non-empty number"
+    );
+    expect(cb).toThrowError(err);
+  });
+});
