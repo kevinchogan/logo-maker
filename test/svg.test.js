@@ -1,14 +1,7 @@
 const svg = require("../lib/svg");
-const answers = {
-  name: "FFF",
-  textColor: "000000",
-  fontFamily: "Tahoma",
-  fontSize: "55",
-  shape: "square",
-  shapeColorType: "solid",
-  shapeColor: "blue",
-  strokeWidth: "0",
-};
+const utils = require("../lib/utils");
+
+const answers = utils.answers;
 
 describe("Make SVG", () => {
   describe("Fonts", () => {
