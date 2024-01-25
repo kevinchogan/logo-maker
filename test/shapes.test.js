@@ -40,7 +40,7 @@ describe("Shapes", () => {
     it("should have a render() method that returns a string for the corresponding SVG file with the given shape color", () => {
       const circle = new shape.Circle("blue", "red");
       expect(circle.render()).toEqual(
-        '<circle cx="110" cy="110" r="100" fill="red" stroke-width="0" stroke="blue"/>'
+        '<circle cx="150" cy="110" r="100" fill="red" stroke-width="0" stroke="blue"/>'
       );
     });
   });
@@ -84,7 +84,7 @@ describe("Shapes", () => {
     it("should have a render() method that returns a string for the corresponding SVG file with the given shape color", () => {
       const square = new shape.Square("blue", "red");
       expect(square.render()).toEqual(
-        '<rect x="10" y="10" width="200" height="200" fill="red" stroke-width="0" stroke="blue"/>'
+        '<rect x="50" y="10" width="200" height="200" fill="red" stroke-width="0" stroke="blue"/>'
       );
     });
   });
@@ -128,7 +128,7 @@ describe("Shapes", () => {
     it("should have a render() method that returns a string for the corresponding SVG file with the given shape color", () => {
       const triangle = new shape.Triangle("blue", "red");
       expect(triangle.render()).toEqual(
-        '<polygon points="10,210 110,10 210,210" fill="red" stroke-width="0" stroke="blue"/>'
+        '<polygon points="50,210 150,10 250,210" fill="red" stroke-width="0" stroke="blue"/>'
       );
     });
   });

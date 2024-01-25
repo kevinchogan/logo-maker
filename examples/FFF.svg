@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220">
-  <rect x="10" y="10" width="200" height="200" fill="blue" stroke-width="0" stroke="blue"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="220">
+  <rect x="50" y="10" width="200" height="200" fill="blue" stroke-width="0" stroke="blue"/>
   <text x="50%" y="53%" font-family="Tahoma, san-serif" font-size="55" text-anchor="middle" alignment-baseline="middle" fill="#000000">FFF</text>
 </svg>
