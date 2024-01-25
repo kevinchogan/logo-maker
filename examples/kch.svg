@@ -7,5 +7,5 @@
       style="stop-color:green;stop-opacity:1" />
     </linearGradient>
   </defs>  <polygon points="10,210 110,10 210,210" fill="url(#grad1)" stroke-width="7" stroke="black"/>
-  <text x="50%" y="75%" font-family="Arial, san-serif" font-size="55" text-anchor="middle" alignment-baseline="middle" fill="white">KCH</text>
+  <text x="50%" y="75%" font-family="Trebuchet MS, san-serif" font-size="55" text-anchor="middle" alignment-baseline="middle" fill="white">KCH</text>
 </svg>

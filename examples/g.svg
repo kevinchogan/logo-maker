@@ -7,5 +7,5 @@
       style="stop-color:lavender;stop-opacity:1" />
     </linearGradient>
   </defs>  <polygon points="144.20201433256688,203.96926207859082 75.79798566743312,203.96926207859084 23.397459621556123,160 11.519224698779198,92.63518223330695 45.72123903134606,33.395555688102206 109.99999999999999,10 174.27876096865393,33.39555568810219 208.48077530122077,92.63518223330686 196.6025403784439,159.99999999999994 " fill="url(#grad1)" stroke-width="1" stroke="black"/>
-  <text x="50%" y="53%" font-family="Courier New, monospace" font-size="88" text-anchor="middle" alignment-baseline="middle" fill="Red">G</text>
+  <text x="50%" y="53%" font-family="Courier New, monospace" font-size="88" text-anchor="middle" alignment-baseline="middle" fill="red">G</text>
 </svg>
