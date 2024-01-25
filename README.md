@@ -27,7 +27,7 @@ After the modules are installed, run by typing 'node index.js' or 'npm start' fr
 * -o will send the answers object to console after your inputs so that you can add to the answers.js more easily.
 
 ![alt Logo maker screenshot](./assets/capture.png)
-[Demo Video](https://youtu.be/oE1PGlgjDGE)
+[Demo Video](https://youtu.be/lCa20vam9GE)
 
 ## Credits
 
